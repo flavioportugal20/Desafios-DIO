@@ -14,8 +14,8 @@ Imprimir a mensagem "X = " (sendo a letra X maiúscula) seguido pelo valor da va
 *Exemplo de Entrada e Saída:*
 
 | Entrada | Saída  |
-| ------- | ------ |
-| 11 7    | X = 18 |
-| -11 6   | X = -5 |
-| 11 -2   | X = 9  |
+| :-----: | :----: |
+|  11 7   | X = 18 |
+|  -11 6  | X = -5 |
+|  11 -2  | X = 9  |
 

@@ -14,10 +14,10 @@ A saída contém um valor correspondente à média de idade dos indivíduos. A m
 *Exemplo de Entrada e Saída:*
 
 | Entrada | Saída |
-| ------- | ----- |
-| 34      | 39.25 |
-| 56      |       |
-| 44      |       |
-| 23      |       |
-| -2      |       |
+| :-----: | :---: |
+|   34    | 39.25 |
+|   56    |       |
+|   44    |       |
+|   23    |       |
+|   -2    |       |
 
