@@ -12,3 +12,16 @@ A primeira linha de entrada contem um único inteiro **N**, que indica a quantid
 
 Imprima a saída de acordo com o exemplo fornecido abaixo, indicando quantas vezes cada um deles aparece na entrada por ordem crescente de valor.
 
+*Exemplo de Entrada e Saída:*
+
+| Entrada | Saída                 |
+| ------- | --------------------- |
+| 7       | 4 aparece 1 vez(es)   |
+| 8       | 8 aparece 2 vez(es)   |
+| 10      | 10 aparece 3 vez(es)  |
+| 8       | 260 aparece 1 vez(es) |
+| 260     |                       |
+| 4       |                       |
+| 10      |                       |
+| 10      |                       |
+

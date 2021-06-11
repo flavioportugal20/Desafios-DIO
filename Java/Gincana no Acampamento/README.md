@@ -42,3 +42,23 @@ pelo número zero.
   Para cada caso de teste, deve-se apresentar a mensagem Vencedor(a): xxxxxx, com um espaço 
 após o sinal ":" indicando qual é o aluno do grupo que venceu a brincadeira.
 
+*Exemplo de Entrada e Saída:*
+
+| Entrada      | Saída                 |
+| ------------ | --------------------- |
+| 3            | Vencedor(a): Fernanda |
+| Fernanda 7   | Vencedor(a): Pedro    |
+| Fernando 9   | Vencedor(a): Pedro    |
+| Gustavo 11   |                       |
+| 5            |                       |
+| Maria 7      |                       |
+| Pedro 9      |                       |
+| Joao_Vitor 5 |                       |
+| Isabel 12    |                       |
+| Laura 8      |                       |
+| 3            |                       |
+| Maria 4      |                       |
+| Pedro 3      |                       |
+| Joao 2       |                       |
+| 0            |                       |
+
