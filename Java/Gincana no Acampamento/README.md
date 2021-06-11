@@ -1,7 +1,6 @@
+### **Gincana no Acampamento**
 
-**Gincana no Acampamento**
-
-Desafio:
+***Desafio:***
   Nas férias de Dezembro, várias escolas se organizam e levam seus 
 alunos para um acampamento de férias por uma semana. Nestes acampamentos 
 os alunos são divididos em cabanas coletivos por gênero e idade, sempre 
@@ -28,18 +27,18 @@ no sentido horário e quando o valor que consta na ficha é ímpar, a contagem
 saiba previamente qual criança irá ser a vencedora de cada grupo, com base nas 
 informações fornecidas.
 
-Entrada:
+## Entrada
   A entrada contém vários casos de teste. A primeira linha de cada caso de teste 
-contém um inteiro N (1 ≤ N ≤ 100), indicando a quantidade de alunos que farão parte 
+contém um inteiro N (1 ≤ **N** ≤ 100), indicando a quantidade de alunos que farão parte 
 de cada círculo. Em seguida, as N linhas de cada caso de teste conterão duas informações, 
-o Nome e o Valor (1 ≤ Valor ≤ 500) que consta na ficha de cada aluno, separados por um 
+o Nome e o Valor (1 ≤ **Valor** ≤ 500) que consta na ficha de cada aluno, separados por um 
 espaço, na ordem de entrada na formação do círculo inicial.
 
-  OBS: O Nome de cada aluno não deverá ultrapassar 30 caracteres e contém apenas letras 
+  *OBS*: O Nome de cada aluno não deverá ultrapassar 30 caracteres e contém apenas letras 
 maiúsculas e minúsculas, sem acentos, e o caractere “_”. O final da entrada é indicado 
 pelo número zero.
 
-Saída:
+## Saída
   Para cada caso de teste, deve-se apresentar a mensagem Vencedor(a): xxxxxx, com um espaço 
 após o sinal ":" indicando qual é o aluno do grupo que venceu a brincadeira.
 
