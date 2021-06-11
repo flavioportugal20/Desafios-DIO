@@ -16,8 +16,8 @@ public class Main{
 				cont++;
 			}
 			x++;
-      }
+	    }
       br.close();    
-    }
+    } 
 	
 }
