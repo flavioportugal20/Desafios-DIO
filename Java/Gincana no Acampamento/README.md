@@ -62,3 +62,33 @@ após o sinal ":" indicando qual é o aluno do grupo que venceu a brincadeira.
 |    Joao 2    |                       |
 |      0       |                       |
 
+## Fórmula
+
+  Depois de conseguir montar um script que encontrasse os vencedores de cada grupo, percebi que havia um padrão, uma lógica diferente da que eu tinha encontrado e que envolvia algumas condicionais e loops. Descobri um jeito de calcular o vencedor e desenvolvi uma fórmula para não ter que fazer muitas manipulações na lista do grupo, ou seja, removendo o item e contando o próximo a ser eliminado do grupo. 
+
+A fórmula funcionou tanto para os testes abertos quanto para os testes fechados da DIO. Não sei se essa fórmula já existe ou se realmente funciona para todas as condições possíveis, pois a única maneira de termos certeza é através da prova matemática.
+
+Apliquei essa fórmula no método **iniciarGincana**:
+
+![Web 1](https://raw.githubusercontent.com/flavioportugal20/Desafios-DIO/main/Java/Gincana%20no%20Acampamento/formula.png)
+
+***tv*** = total dos valores das placas pertencentes ao grupo
+
+***tg*** = total de alunos no grupo
+
+***v1*** = valor da placa do primeiro aluno que entrou no grupo
+
+**Passo a passo:**
+
+1. Somar os valores de todas as placas do grupo.  **(P1)**
+2. Guardar o total de alunos do grupo. **(P2)**
+3. Somar todas as posições do grupo, ou seja, se um grupo tem 3 alunos, temos  (0 + 1 + 2). **(P3)**
+4. Guardar o valor da placa do primeiro aluno que entrou no grupo, somando 1 ao valor. **(P4)**
+5. Subtrair o (P1) por (P3). **(P5)**
+6. Somar (P5) com o resto da operação (P4) dividido por 2. **(P6)**
+7. Guardar o valor do resto da operação (P6) dividido por (P2). **(P7)**
+8. Usar o valor de (P7), que representa a posição de um aluno, para retornar o aluno vencedor.
+
+# Autor
+
+[![Linkedin Badge](https://img.shields.io/static/v1?label=IN&message=Fl%C3%A1vio%20Potugal&color=blue)](https://www.linkedin.com/in/flavio-portugal/)
