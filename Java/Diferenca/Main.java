@@ -5,20 +5,21 @@ import java.util.StringTokenizer;
 
 public class Main {
 
-	static final BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
 	public static void main(String[] args) throws IOException {
-		int a = Integer.parseInt(ler());
-		int b = Integer.parseInt(ler());
-		int c = Integer.parseInt(ler());
-		int d = Integer.parseInt(ler());
+
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+		int a = Integer.parseInt(ler(br));
+		int b = Integer.parseInt(ler(br));
+		int c = Integer.parseInt(ler(br));
+		int d = Integer.parseInt(ler(br));
 		int diferenca = a * b - c * d;
 
 		System.out.printf("DIFERENCA = %s", diferenca);
 		br.close();
 	}
 
-	static String ler() throws IOException {
+	static String ler(BufferedReader br) throws IOException {
 		return new StringTokenizer(br.readLine()).nextToken();
 	}
 
