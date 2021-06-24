@@ -106,8 +106,7 @@ public class Main {
 		if (nome.matches("[a-zA-Z_\s]+") && nome.length() <= 30) {
 			return true;
 		}
-		System.out.println(
-				"O Nome deve conter no máximo 30 caracteres, apenas letras maiúsculas e minúsculas, sem acentos, e o caractere “_”. !");
+		System.out.println("O Nome deve conter no máximo 30 caracteres, apenas letras maiúsculas e minúsculas, sem acentos, e o caractere “_”. !");
 		return false;
 	}
 
