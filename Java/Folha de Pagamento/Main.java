@@ -20,6 +20,8 @@ public class Main {
     double salary = valorHora * horasTrabalhadas;
     System.out.println("NUMBER = " + nColaborador);
     System.out.printf("SALARY = U$ %.2f", salary);
+    
+    br.close();
   }
   
 }
